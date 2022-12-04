@@ -17,7 +17,7 @@ const Apidata = () => {
         catch (e) { console.log("attempt to fetch failed", e) }
     }
 
-    //setInterval(getAPI, 60000);
+    setInterval(getAPI, 60000);
     if (articles) {
         return (
             <div className="thridPartyApi">
